@@ -1,0 +1,17 @@
+{
+  "name": "orden-fabricacion-testing",
+  "version": "1.0.0",
+  "description": "Suite de testing automatizado externa para el proyecto grupal **Orden de Fabricación**.",
+  "main": "index.js",
+  "scripts": {
+    "test:frontend": "playwright test frontend",
+    "test:frontend:ver": "playwright test frontend --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
